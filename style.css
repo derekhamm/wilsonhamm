@@ -1,5 +1,22 @@
+:root {
+    --lightblue: #c9e6e8;
+    --darkgreen: #002d25;
+    --cream: #fbf1df;
+    --yellow: #f3d15e;
+    --lightgreen: #d1e9d0;
+    --red: #f15b47;
+    --blue: #006cb0;
+    --mediumgreen: #49b96d;
+  }
+
 body {
-    margin: 0;
+    background: var(--lightblue);
+    color: var(--darkgreen);
+    font-family: 'Playfair Display', serif;
+    margin: 2em;
+    padding: 2em;
+    border-width: 1.5em;
+    border-image: url(border-test.svg) 10% repeat;
 }
 
 header, main, footer {
@@ -15,11 +32,44 @@ header, main, footer {
 }
 
 header {
-    background-color: black;
-    color: white;
+    text-align: center;
+}
+
+h1 {
+    font-size: 5em;
+}
+
+p.intro {
+    font-size: 2em;
+    font-style: italic;
+}
+
+p.signature {
+    font-size: 1.5em;
+    font-style: italic;
+}
+
+p.signature span {
+    font-style: normal;
+    text-transform: uppercase;
 }
 
 footer {
-    background-color: gray;
-    color: white;
+    
+}
+
+@media screen and (min-width:40em) {
+    
+    body {
+        font-size: 120%;
+    }
+
+}
+
+@media screen and (min-width:60em) {
+    
+    body {
+        font-size: 140%;
+    }
+
 }
