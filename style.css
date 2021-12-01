@@ -36,7 +36,7 @@ body {
     margin: 1em;
     padding: 1em;
     border-width: 1em;
-    border-image: url(border-test.svg) 10% repeat;
+    border-image: url(border-test-2.svg) 29% repeat;
 }
 
 header, main, footer {
