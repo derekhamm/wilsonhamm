@@ -52,6 +52,22 @@ header, main, footer {
     ;
 }
 
+.menu {
+    background: var(--darkgreen);
+    padding: 1em 0;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.menu a {
+    color: var(--cream);
+    text-decoration: none;
+}
+
+.full-column {
+    grid-column: 1 / span 8;
+}
+
 .main-column {
     grid-column: 2 / span 6;
 }
