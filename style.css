@@ -85,10 +85,6 @@ header {
     padding-top: 0;
 }
 
-.title {
-    padding: 1em 0;
-}
-
 main {
     margin: 1em;
     padding: 1em;
@@ -109,7 +105,7 @@ h1 {
 }
 
 h2 {
-    font-size: 2em;
+    font-size: 1.8em;
     font-style: italic;
 }
 
