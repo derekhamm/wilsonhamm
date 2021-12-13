@@ -43,7 +43,7 @@ header, main, footer {
         repeat(6, 1fr) 
         calc(50vw - 36rem);
 	column-gap: 2em;
-    padding: 2em 0;
+    padding: 1em 0;
     ;
 }
 
@@ -83,6 +83,10 @@ img {
 header {
     text-align: center;
     padding-top: 0;
+}
+
+.title {
+    padding: 1em 0;
 }
 
 main {
