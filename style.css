@@ -72,6 +72,14 @@ header, main, footer {
     grid-column: 2 / span 6;
 }
 
+.first-half {
+    grid-column: 2 / span 3;
+}
+
+.second-half {
+    grid-column: 5 / span 3;
+}
+
 header {
     text-align: center;
 }
