@@ -52,8 +52,14 @@ header, main, footer {
     ;
 }
 
+img {
+    width: 100%;
+}
+
 .menu {
     background: var(--darkgreen);
+    color: var(--cream);
+    text-align: center;
     padding: 1em 0;
     display: flex;
     justify-content: space-evenly;
@@ -64,7 +70,7 @@ header, main, footer {
     text-decoration: none;
 }
 
-.full-column {
+.full-width {
     grid-column: 1 / span 8;
 }
 
@@ -80,7 +86,7 @@ header, main, footer {
     grid-column: 5 / span 3;
 }
 
-header {
+main {
     text-align: center;
 }
 
