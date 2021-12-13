@@ -45,7 +45,9 @@ body {
 header, main, footer {
     display: grid;
     grid-template-columns:
-        calc(50vw - 36em) repeat(6, 1fr) calc(50vw - 36em);
+        calc(50vw - 36em) 
+        repeat(6, 1fr) 
+        calc(50vw - 36em);
 	gap: 2em;
     ;
 }
