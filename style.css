@@ -96,23 +96,17 @@ main {
     border-image-source: url(border-test.svg);
 }
 
+h1, h2, h3, h4, h5, h6 {
+    font-weight: 500;
+}
+
 h1 {
-    font-size: 2em;
-}
-
-p.intro {
-    font-size: 1.8em;
-    font-style: italic;
-}
-
-p.signature {
     font-size: 1.4em;
-    font-style: italic;
 }
 
-p.signature span {
-    font-style: normal;
-    text-transform: uppercase;
+h2 {
+    font-size: 2em;
+    font-style: italic;
 }
 
 footer {
