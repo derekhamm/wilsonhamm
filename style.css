@@ -89,7 +89,7 @@ main {
     margin: 1em;
     padding: 1em;
     text-align: center;
-    border: 16px solid transparent;
+    border: 16px solid;
     border-image-slice: 37.5%;
     border-image-width: 16px;
     border-image-repeat: repeat;
