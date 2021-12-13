@@ -33,13 +33,7 @@ body {
     font-family: 'New Forest', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     font-weight: 500;
     font-style: normal;
-    margin: 1em;
-    padding: 1em;
-    border: 16px solid transparent;
-    border-image-source: url(border-test.svg);
-    border-image-slice: 37.5%;
-    border-image-width: 16px;
-    border-image-repeat: repeat;
+    margin: 0;
 }
 
 header, main, footer {
@@ -48,7 +42,8 @@ header, main, footer {
         calc(50vw - 36rem) 
         repeat(6, 1fr) 
         calc(50vw - 36rem);
-	gap: 2em;
+	column-gap: 2em;
+    padding: 2em 0;
     ;
 }
 
@@ -60,7 +55,6 @@ img {
     background: var(--darkgreen);
     color: var(--cream);
     text-align: center;
-    padding: 1em 0;
     display: flex;
     justify-content: space-evenly;
 }
@@ -86,12 +80,24 @@ img {
     grid-column: 5 / span 3;
 }
 
-main {
+header {
     text-align: center;
+    padding-top: 0;
+}
+
+main {
+    margin: 1em;
+    padding: 1em;
+    text-align: center;
+    border: 16px solid transparent;
+    border-image-slice: 37.5%;
+    border-image-width: 16px;
+    border-image-repeat: repeat;
+    border-image-source: url(border-test.svg);
 }
 
 h1 {
-    font-size: 5em;
+    font-size: 2em;
 }
 
 p.intro {
@@ -110,7 +116,11 @@ p.signature span {
 }
 
 footer {
-    
+    text-align: center;
+}
+
+footer img {
+    max-width: 6em;
 }
 
 @media screen and (min-width:40em) {
