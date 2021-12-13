@@ -36,10 +36,10 @@ body {
     margin: 1em;
     padding: 1em;
     border: 16px solid transparent;
+    border-image-source: url(border-test.svg);
     border-image-slice: 37.5%;
     border-image-width: 16px;
     border-image-repeat: repeat;
-    border-image-source: url(border-test.svg);
 }
 
 header, main, footer {
