@@ -87,14 +87,11 @@ header {
 }
 
 main {
-    margin: 1em;
+    margin: 0em 1em 1em 1em;
     padding: 1em;
     text-align: center;
-    border: 16px solid;
-    border-image-slice: 37.5%;
-    border-image-width: 16px;
-    border-image-repeat: repeat;
-    border-image-source: url(border-test.svg);
+    border: 7px double;
+    border-color: var(--darkgreen);
 }
 
 h1, h2, h3, h4, h5, h6 {
