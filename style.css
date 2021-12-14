@@ -90,7 +90,7 @@ main {
     margin: 0em 1em 1em 1em;
     padding: 1em;
     text-align: center;
-    border: .5vw double;
+    border: .3em double;
     border-color: var(--darkgreen);
 }
 
