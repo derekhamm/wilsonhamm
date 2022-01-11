@@ -109,6 +109,10 @@ li {
     grid-column: 5 / span 3;
 }
 
+.middle-third {
+    grid-column: 3 / span 3;
+}
+
 header {
     text-align: center;
     margin: 0;
