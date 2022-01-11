@@ -68,7 +68,7 @@ img {
     letter-spacing: .1em;
 }
 
-#accommodations a:hover {
+a:hover {
     color: var(--blue);
 }
 
