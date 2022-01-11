@@ -130,6 +130,7 @@ header #accommodations{
     border: .3em double;
     border-color: var(--darkgreen);
     background-color: var(--blue);
+    max-width: 600px;
 }
 
 h1, h2, h3, h4, h5, h6 {
