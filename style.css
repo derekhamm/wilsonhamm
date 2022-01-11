@@ -47,6 +47,10 @@ header, main, footer {
     ;
 }
 
+header #accommodations {
+    background-image: "/accommodations.png";
+}
+
 img {
     width: 100%;
 }
