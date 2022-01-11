@@ -68,6 +68,10 @@ img {
     letter-spacing: .1em;
 }
 
+#accommodations a:hover {
+    color: var(--blue);
+}
+
 .full-width {
     grid-column: 1 / span 8;
 }
