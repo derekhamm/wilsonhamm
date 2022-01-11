@@ -63,7 +63,7 @@ img {
     color: var(--cream);
     text-decoration: none;
     text-transform: uppercase;
-    font-size: 1em;
+    font-size: .8em;
 }
 
 .full-width {
