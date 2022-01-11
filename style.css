@@ -53,6 +53,7 @@ img {
 
 li {
     list-style-type: none;
+    line-height: .7em;
 }
 
 .menu {
