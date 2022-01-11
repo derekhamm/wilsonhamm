@@ -127,6 +127,15 @@ main {
     background-color: var(--lightblue);
 }
 
+main #accommodations{
+    margin: 0em 1em;
+    padding: 1em;
+    text-align: center;
+    border: .3em double;
+    border-color: var(--darkgreen);
+    background-color: var(--blue);
+}
+
 h1, h2, h3, h4, h5, h6 {
     font-weight: 500;
 }
