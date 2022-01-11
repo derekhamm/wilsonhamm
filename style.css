@@ -110,7 +110,7 @@ li {
 }
 
 .middle-third {
-    grid-column: 3 / span 3;
+    grid-column: 4 / span 2;
 }
 
 header {
