@@ -57,6 +57,7 @@ img {
     text-align: center;
     display: flex;
     justify-content: space-evenly;
+    padding: 10px;
 }
 
 .menu a {
