@@ -73,8 +73,24 @@ li {
     letter-spacing: .1em;
 }
 
+#registry a:hover {
+    color: var(--lightgreen);
+}
+
 #accommodations a:hover {
     color: var(--blue);
+}
+
+#directions a:hover {
+    color: var(--red);
+}
+
+#recommendations a:hover {
+    color: var(--yellow);
+}
+
+#other a:hover {
+    color: var(--mediumgreen);
 }
 
 .full-width {
