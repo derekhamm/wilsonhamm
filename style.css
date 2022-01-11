@@ -127,6 +127,10 @@ main {
     background-color: var(--lightblue);
 }
 
+main #secondary {
+    text-align: center;
+}
+
 header #accommodations{
     margin: 0;
     padding: .5em;
