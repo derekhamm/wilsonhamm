@@ -11,16 +11,21 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Sorts+Mill+Goudy:ital@0;1&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
 </head>
 <body>
-    <div class="menu">
-        <li id="registry"><a href="https://www.zola.com/registry/emileeandjarod" target="_blank">Registry</a></li>
-        <li id="accommodations"><a href="#">Accommodations</a></li>
-        <li id="directions"><a href="#">Directions</a></li>
-        <li id="recommendations"><a href="#">Recommendations</a></li>
-        <li id="other"><a href="#">Other Info</a></li>
-    </div>
+    
     <header>
+        <nav id="menu">
+            <a id="registry" href="https://www.zola.com/registry/emileeandjarod" target="_blank">Registry</a>
+            <a id="accommodations" href="#">Accommodations</a>
+            <a id="directions" href="#">Directions</a>
+            <a id="recommendations" href="#">Recommendations</a>
+            <a id="other" href="#">Other Info</a>
+        </nav>
+        <div class="toggle">
+            <button onclick="menuToggle()">Menu</button>
+        </div>
         <div class="main-column title">
             <h1>Emilee Wilson & Jarod Hamm</h1>
         </div>

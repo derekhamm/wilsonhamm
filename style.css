@@ -44,52 +44,73 @@ header, main, footer {
         calc(50vw - 36rem);
 	column-gap: 2em;
     padding: 1em 0;
-    ;
+}
+
+header {
+    padding-top: 0;
 }
 
 img {
     width: 100%;
 }
 
-li {
-    list-style-type: none;
-    line-height: .7em !important;
-}
 
-.menu {
-    background: var(--darkgreen);
-    color: var(--cream);
-    text-align: center;
-    display: flex;
-    justify-content: space-evenly;
-    padding: 10px;
-}
-
-.menu a {
+nav a {
     color: var(--cream);
     text-decoration: none;
     text-transform: uppercase;
-    font-size: .7em;
+    font-size: .75em;
     letter-spacing: .1em;
+    padding: 1em 0;
 }
 
-#registry a:hover {
+nav {
+    display: none;
+    grid-column: 1 / span 8;
+    background: var(--darkgreen);
+    color: var(--cream);
+    text-align: center;
+    justify-content: space-evenly;
+    flex-direction: column;
+    padding: 1em 0;
+    }
+
+nav.show {
+    display: flex;
+    }
+
+.toggle {
+    grid-column: 1 / span 8;
+    text-align: right;
+}
+
+.toggle button {
+    border: none;
+    margin: 0;
+    background: var(--darkgreen);
+    color: var(--cream);
+    padding: 1em;
+    font-family: 'New Forest', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 1em;
+}
+
+#registry:hover {
     color: var(--mediumgreen);
 }
 
-#accommodations a:hover {
+#accommodations:hover {
     color: var(--blue);
 }
 
-#directions a:hover {
+#directions:hover {
     color: var(--red);
 }
 
-#recommendations a:hover {
+#recommendations:hover {
     color: var(--yellow);
 }
 
-#other a:hover {
+#other:hover {
     color: var(--lightblue);
 }
 
@@ -129,15 +150,6 @@ main {
 
 main #secondary {
     text-align: center;
-}
-
-header #accommodations{
-    margin: 0;
-    padding: .5em;
-    text-align: center;
-    border: .3em double;
-    border-color: var(--darkgreen);
-    background-color: var(--blue);
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -181,6 +193,15 @@ footer img {
     
     body {
         font-size: 120%;
+    }
+
+    .toggle {
+        display: none;
+    }
+
+    nav, nav.show {
+        display: flex;
+        flex-direction: row;
     }
 
 }
