@@ -85,6 +85,7 @@ nav.show {
 }
 
 .toggle button {
+    border: none;
     margin: 0;
     background: var(--lightblue);
     color: var(--darkgreen);
