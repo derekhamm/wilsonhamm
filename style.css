@@ -143,9 +143,6 @@ main {
     margin: 0em 1em;
     padding: 1em;
     text-align: center;
-    border: .3em double;
-    border-color: var(--darkgreen);
-    background-color: var(--lightblue);
 }
 
 main #secondary {
