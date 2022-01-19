@@ -185,6 +185,7 @@ li{
     text-transform: uppercase;
     list-style-type: none;
     line-height: 1.5em;
+    padding: 0;
 }
 
 footer {
