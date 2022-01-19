@@ -183,8 +183,12 @@ li{
     font-size: .6em;
     font-family: "sorts mill goudy", serif;
     text-transform: uppercase;
+    letter-spacing: .1em;
     list-style-type: none;
     line-height: 1.5em;
+}
+
+ul{
     padding: 0;
 }
 
