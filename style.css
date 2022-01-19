@@ -99,7 +99,7 @@ nav.show {
     color: var(--lightgreen);
 }
 
-.toggle button:active {
+.toggle button:onclick {
     background: var(--lightgreen);
     color: var(--darkgreen);
 }
