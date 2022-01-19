@@ -85,8 +85,9 @@ nav.show {
 }
 
 .toggle button {
-    border: 1px var(--darkgreen);
+    border: solid 1px var(--darkgreen);
     margin: 0;
+    text-align: center;
     background: var(--cream);
     color: var(--darkgreen);
     padding: .5em 1em .5em 1em;
