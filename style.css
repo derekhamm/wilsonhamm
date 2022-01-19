@@ -180,8 +180,9 @@ h3{
 }
 
 li{
-    font-size: .8em;
+    font-size: .6em;
     font-family: "sorts mill goudy", serif;
+    text-transform: uppercase;
     list-style-type: none;
     line-height: 1.5em;
 }
