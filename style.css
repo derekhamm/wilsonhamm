@@ -98,8 +98,12 @@ nav #registry:hover {
     color: var(--mediumgreen);
 }
 
-a #accommodations:hover {
+#accommodations a:hover {
     color: var(--blue);
+}
+
+#accommodations a {
+    color: var(--darkgreen)
 }
 
 nav #directions:hover {
