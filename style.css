@@ -102,8 +102,10 @@ nav #accommodations a:hover {
     color: var(--blue);
 }
 
-#accommodations a {
-    color: var(--darkgreen)
+a {
+    color: var(--darkgreen);
+    font-weight: bold;
+    text-decoration: underline wavy;
 }
 
 #accommodations a:hover {
