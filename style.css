@@ -98,14 +98,13 @@ nav #registry:hover {
     color: var(--mediumgreen);
 }
 
-nav #accommodations a:hover {
+nav #accommodations:hover {
     color: var(--blue);
 }
 
 a {
     color: var(--darkgreen);
-    font-weight: bold;
-    text-decoration: underline wavy;
+    text-decoration: 1px underline wavy;
 }
 
 #accommodations a:hover {
