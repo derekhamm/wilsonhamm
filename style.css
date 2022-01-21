@@ -104,11 +104,13 @@ nav #accommodations:hover {
 
 a {
     color: var(--darkgreen);
-    text-decoration: 1px underline wavy;
+    text-decoration: .05em underline wavy;
+    text-underline-offset: 2px;
 }
 
 #accommodations a:hover {
-    color: var(--blue)
+    color: var(--blue);
+    font-style: italic;
 }
 
 nav #directions:hover {
