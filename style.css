@@ -157,6 +157,12 @@ h1, h2, h3, h4, h5, h6 {
     margin: 1em 0 0 0;
 }
 
+.main-column.title #accommodations {
+    margin: 1em 0 0 0;
+    border: double var(--darkgreen);
+    background-color: var(--blue);
+}
+
 p {
     font-size: .9em;
     font-family: "sorts mill goudy", serif;
