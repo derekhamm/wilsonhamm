@@ -94,7 +94,7 @@ nav.show {
     font-size: 1em;
 }
 
-#registry:hover {
+nav #registry:hover {
     color: var(--mediumgreen);
 }
 
@@ -102,15 +102,15 @@ nav #accommodations:hover {
     color: var(--blue);
 }
 
-#directions:hover {
+nav #directions:hover {
     color: var(--red);
 }
 
-#recommendations:hover {
+nav #recommendations:hover {
     color: var(--yellow);
 }
 
-#other:hover {
+nav #other:hover {
     color: var(--lightblue);
 }
 
@@ -157,7 +157,7 @@ h1, h2, h3, h4, h5, h6 {
     margin: 1em 0 0 0;
 }
 
-.main-column.title #accommodations {
+h1 #accommodations {
     margin: 1em 0 0 0;
     border: double var(--darkgreen);
     background-color: var(--blue);
