@@ -113,6 +113,16 @@ a {
     font-style: italic;
 }
 
+#directions a:hover {
+    color: var(--red);
+    font-style: italic;
+}
+
+#recommendations a:hover {
+    color: var(--yellow);
+    font-style: italic;
+}
+
 nav #directions:hover {
     color: var(--red);
 }
@@ -172,6 +182,20 @@ h1, h2, h3, h4, h5, h6 {
     margin: 1em 18% 0 18%;
     border: 7px double var(--darkgreen);
     background-color: var(--blue);
+    padding: 1em;
+}
+
+#directions h1 {
+    margin: 1em 18% 0 18%;
+    border: 7px double var(--darkgreen);
+    background-color: var(--red);
+    padding: 1em;
+}
+
+#recommendations h1 {
+    margin: 1em 18% 0 18%;
+    border: 7px double var(--darkgreen);
+    background-color: var(--yellow);
     padding: 1em;
 }
 
@@ -244,7 +268,7 @@ footer img {
         font-size: 140%;
     }
 
-    #accommodations h1 {
+    #accommodations h1, #directions h1, #recommendations h1 {
         margin: 1em 33% 0 33%;
     }
 
