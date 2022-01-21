@@ -161,6 +161,7 @@ h1, h2, h3, h4, h5, h6 {
     margin: 1em 0 0 0;
     border: 7px double var(--darkgreen);
     background-color: var(--blue);
+    padding: 1em;
 }
 
 p {
@@ -221,7 +222,7 @@ footer img {
 
 }
 
-@media screen and (min-width:60em) {
+@media screen and (min-width:50em) {
     
     body {
         font-size: 140%;
@@ -229,8 +230,6 @@ footer img {
 
     #accommodations h1 {
         margin: 1em 30% 0 30%;
-        border: 7px double var(--darkgreen);
-        background-color: var(--blue);
     }
 
 }
