@@ -98,7 +98,7 @@ nav #registry:hover {
     color: var(--mediumgreen);
 }
 
-nav #accommodations:hover {
+a #accommodations:hover {
     color: var(--blue);
 }
 
