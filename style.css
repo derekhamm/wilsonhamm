@@ -98,7 +98,7 @@ nav.show {
     color: var(--mediumgreen);
 }
 
-#accommodations:hover a {
+nav #accommodations:hover {
     color: var(--blue);
 }
 
