@@ -54,6 +54,10 @@ img {
     width: 100%;
 }
 
+.main-column.title img{
+    width: 30%;
+}
+
 
 nav a {
     color: var(--cream);
@@ -270,6 +274,10 @@ footer img {
 
     #accommodations h1, #directions h1, #recommendations h1 {
         margin: 1em 33% 0 33%;
+    }
+
+    .main-column.title img{
+        width: 20%;
     }
 
 }
