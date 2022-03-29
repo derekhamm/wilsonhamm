@@ -191,6 +191,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .button#accommodations a{
+    grid-column: 2 / span 6;
     border: 7px double var(--darkgreen);
     margin-top: 1em !important;
     background-color: var(--cream);
