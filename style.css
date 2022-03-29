@@ -191,7 +191,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .button#accommodations a{
-    margin: 1em;
+    margin: 1em !important;
     border: 7px double var(--darkgreen);
     background-color: var(--blue);
     padding: .5em;
