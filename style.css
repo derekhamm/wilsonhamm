@@ -190,12 +190,9 @@ h1, h2, h3, h4, h5, h6 {
     padding: 1em;
 }
 
-.button#accommodations {
-    margin: 1em !important;
-}
-
 .button#accommodations a{
     border: 7px double var(--darkgreen);
+    margin-top: 1em !important;
     background-color: var(--blue);
     padding: .5em;
     font-size: .9em;
