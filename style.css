@@ -224,8 +224,9 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 p {
-    font-size: .9em;
+    font-size: 1em;
     font-family: "sorts mill goudy", serif;
+    font-style: italic;
 }
 
 h1 {
@@ -246,15 +247,15 @@ h3{
 }
 
 h4{
-    font-size: .75em;
+    font-size: .8em;
     font-family: "sorts mill goudy", serif;
 }
 
 li{
-    font-size: .7em;
+    font-size: .8em;
     font-family: "sorts mill goudy", serif;
     list-style-type: none;
-    line-height: 1.8em;
+    line-height: 2em;
 }
 
 ul{
