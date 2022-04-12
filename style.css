@@ -271,7 +271,8 @@ footer img {
 
 iframe {
     width: 100%;
-    border: 1px var(--darkgreen);
+    border: 2px var(--darkgreen);
+    border-style: outset;
 }
 
 @media screen and (min-width:40em) {
