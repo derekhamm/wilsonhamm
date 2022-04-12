@@ -271,11 +271,7 @@ footer img {
 
 iframe {
     width: 100%;
-    border: none;
-}
-
-.i4ewOd-haAclf {
-    background-color: rgba(0,56,36,.6)!important;
+    border: 1px var(--darkgreen);
 }
 
 @media screen and (min-width:40em) {
