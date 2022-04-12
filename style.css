@@ -61,7 +61,7 @@ img {
 
 .full-width.title img{
     width: 60%;
-    margin: 1em 0 0 0;
+    margin: 2em 0 0 0;
 }
 
 
@@ -172,7 +172,7 @@ header {
 
 main {
     margin: 1em;
-    padding: 1em;
+    padding: 0 1em 1em 1em;
     text-align: center;
 }
 
@@ -301,7 +301,7 @@ iframe {
     }
 
     .full-width.title img{
-        width: 45%;
+        width: 40%;
     }
 
 }
@@ -326,7 +326,7 @@ iframe {
     }
 
     .full-width.title img{
-        width: 30%;
+        width: 20%;
     }
 
 }
