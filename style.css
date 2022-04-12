@@ -140,6 +140,7 @@ nav #directions:hover {
 
 nav #recommendations:hover {
     color: var(--yellow);
+    font-style: normal;
 }
 
 nav #other:hover {
