@@ -59,7 +59,7 @@ img {
     margin: 1em 0 0 0;
 }
 
-.wider.title img{
+.full-width.title img{
     width: 60%;
     margin: 1em 0 0 0;
 }
@@ -300,7 +300,7 @@ iframe {
         width: 90%;
     }
 
-    .wider.title img{
+    .full-width.title img{
         width: 50%;
     }
 
@@ -325,7 +325,7 @@ iframe {
         width: 80%;
     }
 
-    .wider.title img{
+    .full-width.title img{
         width: 40%;
     }
 
