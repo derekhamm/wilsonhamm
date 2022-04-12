@@ -62,7 +62,7 @@ img {
 .full-width.title img{
     height: 4em;
     width: auto;
-    margin: 2em 0 0 0;
+    margin: 1em 0 0 0;
 }
 
 
@@ -317,7 +317,7 @@ iframe {
 
     .main-column.title img{
         width: 12%;
-        margin: 1em 0 0 0;
+        margin: 2em 0 0 0;
     }
 
     iframe {
