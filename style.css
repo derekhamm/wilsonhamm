@@ -270,7 +270,7 @@ footer img {
 }
 
 iframe {
-    width: 60%
+    width: 100%
 }
 
 @media screen and (min-width:40em) {
@@ -289,7 +289,7 @@ iframe {
     }
 
     iframe {
-        width: 80%
+        width: 100%
     }
 
 }
