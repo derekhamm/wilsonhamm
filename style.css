@@ -269,6 +269,10 @@ footer img {
     max-width: 5em;
 }
 
+iframe {
+    width: 60%
+}
+
 @media screen and (min-width:40em) {
     
     body {
@@ -282,6 +286,10 @@ footer img {
     nav, nav.show {
         display: flex;
         flex-direction: row;
+    }
+
+    iframe {
+        width: 80%
     }
 
 }
@@ -298,6 +306,10 @@ footer img {
 
     .main-column.title img{
         width: 20%;
+    }
+
+    iframe {
+        width: 100%
     }
 
 }
