@@ -59,6 +59,11 @@ img {
     margin: 1em 0 0 0;
 }
 
+.wider.title img{
+    width: 60%;
+    margin: 1em 0 0 0;
+}
+
 
 nav a {
     color: var(--cream);
@@ -295,6 +300,12 @@ iframe {
         width: 90%;
     }
 
+    .wider.title img{
+        width: 50%;
+    }
+
+}
+
 
 @media screen and (min-width:60em) {
     
@@ -314,5 +325,8 @@ iframe {
         width: 80%;
     }
 
-}
+    .wider.title img{
+        width: 40%;
+    }
+
 }
